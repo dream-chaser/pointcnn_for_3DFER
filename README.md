@@ -1,3 +1,5 @@
+Original rep: https://github.com/yangyanli/PointCNN
+
 # PointCNN
 
 Created by <a href="http://yangyan.li" target="_blank">Yangyan Li</a>, Rui Bu, <a href="http://www.mcsun.cn" target="_blank">Mingchao Sun</a>, and <a href="http://www.cs.sdu.edu.cn/~baoquan/" target="_blank">Baoquan Chen</a> from Shandong University.
