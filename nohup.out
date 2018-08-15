@@ -1,0 +1,37 @@
+/home/cit003/chenzhixing/anaconda3/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+Traceback (most recent call last):
+  File "train_val_cls.py", line 436, in <module>
+    main()
+  File "train_val_cls.py", line 62, in main
+    data_train, label_train, data_val, label_val = setting.load_fn(args.path, args.path_val)
+  File "/home/cit003/chenzhixing/code/PointCNN/PointCNN/data_utils.py", line 151, in load_cls_train_val_BU3D
+    data_train, label_train = grouped_shuffle(load_cls_BU3D(filelist))
+  File "/home/cit003/chenzhixing/code/PointCNN/PointCNN/data_utils.py", line 140, in load_cls_BU3D
+    input_x = np.random.permutation(input_x)
+KeyboardInterrupt
+/home/cit003/chenzhixing/anaconda3/lib/python3.6/importlib/_bootstrap.py:219: RuntimeWarning: compiletime version 3.5 of module 'tensorflow.python.framework.fast_tensor_util' does not match runtime version 3.6
+  return f(*args, **kwds)
+2018-08-07 01:38:10.754681: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-08-07 01:38:11.855996: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: GeForce GTX 1080 Ti major: 6 minor: 1 memoryClockRate(GHz): 1.582
+pciBusID: 0000:81:00.0
+totalMemory: 10.91GiB freeMemory: 10.75GiB
+2018-08-07 01:38:11.856043: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:81:00.0, compute capability: 6.1)
+Traceback (most recent call last):
+  File "train_val_cls_original_linear1.py", line 436, in <module>
+    main()
+  File "train_val_cls_original_linear1.py", line 425, in main
+    is_training: True,
+  File "/home/cit003/chenzhixing/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 889, in run
+    run_metadata_ptr)
+  File "/home/cit003/chenzhixing/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1120, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/cit003/chenzhixing/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1317, in _do_run
+    options, run_metadata)
+  File "/home/cit003/chenzhixing/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1323, in _do_call
+    return fn(*args)
+  File "/home/cit003/chenzhixing/anaconda3/lib/python3.6/site-packages/tensorflow/python/client/session.py", line 1302, in _run_fn
+    status, run_metadata)
+KeyboardInterrupt
+./10_fold_original.sh: 16: ./10_fold_original.sh: _prm_0: not found

@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python -u ../train_val_cls.py -t ../../data/BU3D/prm_train_0.txt -v ../../data/BU3D/prm_valid_0.txt -s ../../models/BU3D_cls -m pointcnn_cls -x BU3D_multiscale -n prm_0
